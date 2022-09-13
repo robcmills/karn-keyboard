@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/kbd-master/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
+  (lib (name "nice_nano")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/nice-nano-kicad-master/nice_nano.kicad_sym")(options "")(descr ""))
+)

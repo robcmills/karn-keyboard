@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/kbd-master/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "nice-nano-kicad-master")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/nice-nano-kicad-master")(options "")(descr ""))
+)
