@@ -1,1 +1,5 @@
 .DS_Store
+*.bak
+pcbs/karn-right/karn-right-backups
+pcbs/karn-right/#auto_saved_files#
+
