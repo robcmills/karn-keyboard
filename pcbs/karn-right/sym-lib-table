@@ -2,4 +2,5 @@
   (lib (name "kbd")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/kbd-master/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
   (lib (name "nice_nano")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/nice-nano-kicad-master/nice_nano.kicad_sym")(options "")(descr ""))
   (lib (name "S2B-PH-K-SLFSN")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/S2B-PH-K-SLFSN.kicad_sym")(options "")(descr ""))
+  (lib (name "reset-switch-TL3313AF250QG")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/karn-kicad-footprints/reset-switch-TL3313AF250QG.kicad_sym")(options "")(descr ""))
 )

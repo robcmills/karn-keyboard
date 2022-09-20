@@ -14,7 +14,7 @@ Other keyboards are designed with maybe one or two larger thumb keys, but they a
 ### Parts List
 
 - diodes
-https://www.digikey.com/en/products/detail/micro-commercial-co/1N4148W-TP/717311
+https://www.digikey.com/en/products/detail/micro-commercial-co/1N4148X-TP/789328
 PART: 1N4148XTPMSCT-ND
 MFG : MICRO COMMERCIAL CO (VA) / 1N4148X-TP
 DESC: DIODE GEN PURP 75V 150MA SOD523
@@ -27,9 +27,16 @@ MFG : ADAFRUIT INDUSTRIES LLC / 2686
 DESC: ADDRESS LED DISC SERIAL RGB 10PK
 UNIT PRICE: $4.95 (for quantity 10)
 
-- battery connector
+- battery connectors
 https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626
 PART: 455-1719-ND
 MFG : JST SALES AMERICA INC / S2B-PH-K-S(LF)(SN)
 DESC: CONN HEADER R/A 2POS 2MM
 UNIT PRICE: $0.134
+
+- reset switches
+https://www.digikey.com/en/products/detail/e-switch/TL3313AF250QG/4029401
+PART: EG6065CT-ND
+MFG : E-SWITCH (VA) / TL3313AF250QG
+DESC: SWITCH TACTILE SPST-NO 0.05A 12V
+UNIT PRICE: $0.431
