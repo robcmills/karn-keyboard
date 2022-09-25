@@ -1,17 +1,55 @@
 # karn-keyboard
-Custom, low profile, split, ortholinear, wireless, 38 key keyboard
 
-What makes the Karn unique is the 1.5u thumb arc keys.
+Custom, low profile, split, ortholinear, non-staggered, wireless, 38 key keyboard
 
-I didn't like "tucking" my thumb under my palm, and most other keyboards I found in this "Ferris" family of split, minimal keyboards have thumb keys located "inside" of the homing fj keys. 
+What makes the Karn unique are the 1.5u thumb arc keys, the 1.5u pinky reach keys, and the non-key LEDs.
 
-The Karn aligns the inner thumb key with the homing column. This feels comfortable to me, and provides a sense of "homing" to my thumbs as well. With the additional thumb keys splaying out from there, in a more aggresive downward arc than the Ferris. This arc follows the natural arc of my thumb. I took photos and did measurements. You can see these in the development directory. 
+
+### Thumb Arc Keys
+
+I didn't like "tucking" my thumb under my palm, and most other keyboards I found in this "Ferris" family of split, minimal keyboards have thumb keys located "inside" of the homing fj keys' column. 
+
+The Karn aligns the inner thumb key with the homing column. This feels comfortable to me, and provides a sense of "homing" to my thumbs as well. With the additional thumb keys splaying out inwards from there, in a more aggresive downward arc than the Ferris. This arc follows the natural arc of my thumb. I took photos and did measurements. You can see these in the development directory. 
 
 Also, the thumb keys are designed for vertical 1.5u keycaps. This is because I found 1u keycaps uncomfortable for my thumbs, as I typically make contact with the side of my thumb, which has more surface area making contact, and the sharp edge of 1u keycaps would dig into the center of the area of skin making contact. 
 Other keyboards are designed with maybe one or two larger thumb keys, but they are typically 2u, which means the added complexity of stabilizers, in addition to just feeling too big.
 
 
+### Pinky Reach Keys
+
+"Pinky reach" meaning the keys in the colmn "outside" of the pinky column. On a traditional keyboard this would correspond to the Escape, Tab, Caps-lock, and Shift keys on the left hand for example. The other keyboard designs I saw either had no pinky reach keys, or a full set of three or four. The Karn is designed very much in the "all keys within one key distance of home" style, as is common in the less than 40% category. However, although the pinky diagonal reaches technically still count as "one key distance", that reach felt too difficult to me. And so they are omitted, but having zero pinky reach keys, I found it difficult to fit Tab and Enter elsewhere. There were just too few keys at that point, and so I wanted to retain a single horizontal pinky reach key on each side. I use these for Tab, Enter, and Held for Hyper. 
+
+
+### Non-key LEDs
+
+The Karn is designed to be minimal, and easy to assemble. As such, I omitted LEDs for each key, but there are three LEDs positioned next to the microcontroller on only the right hand side. The purpose of these are as follows:
+
+1. Current Layer
+2. Caps-lock indicator
+3. General purpose
+
+I had considered an OLED screen, but that requires looking down at the keyboard and focusing on it in order to read what the current layer is. An LED can be seen out of the corner of your eye without breaking your gaze and focus away from the screen.
+
+
 ### Parts List
+
+- key switches
+https://mkultra.click/choc-switches
+Kailh Low Profile Choc v1
+
+- key caps
+https://mkultra.click/mbk-choc-keycaps
+
+- microcontroller
+https://mkultra.click/nice-nano-v2/
+(includes 301230 110mAh Battery with JST Connector) 
+
+- microcontroller sockets and pins
+https://mkultra.click/mill-max-micro-controller-sockets-and-pins/
+
+- power switches
+https://mkultra.click/alps-ssss811101/
+https://tech.alpsalpine.com/e/products/detail/SSSS811101/
 
 - diodes
 https://www.digikey.com/en/products/detail/micro-commercial-co/1N4148X-TP/789328
@@ -40,3 +78,9 @@ PART: EG6065CT-ND
 MFG : E-SWITCH (VA) / TL3313AF250QG
 DESC: SWITCH TACTILE SPST-NO 0.05A 12V
 UNIT PRICE: $0.431
+
+- feet (todo)
+
+- pcb
+https://www.pcbway.com/
+
