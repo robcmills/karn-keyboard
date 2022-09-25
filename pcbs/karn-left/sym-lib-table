@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "karn-symbols")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/karn-kicad/karn-symbols.kicad_sym")(options "")(descr ""))
+)

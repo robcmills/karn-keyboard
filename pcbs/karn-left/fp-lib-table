@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/kbd-master/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name "nice-nano-kicad-master")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/nice-nano-kicad-master")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/keyswitches.pretty-master")(options "")(descr ""))
+  (lib (name "karn-kicad-footprints")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/karn-kicad-footprints")(options "")(descr ""))
+  (lib (name "karn-kicad")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/karn-kicad")(options "")(descr ""))
+)
