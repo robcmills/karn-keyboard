@@ -2701,6 +2701,7 @@
     )
   )
 
+
   (junction (at 53.5261 74.6582) (diameter 0) (color 0 0 0 0)
     (uuid 06f3c894-9ada-4d1e-a979-42a50f0fba99)
   )
@@ -3334,7 +3335,7 @@
     (property "Value" "SW_Push" (id 1) (at 223.2785 80.8773 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TL3313AF250QG_EWI" (id 2) (at 224.2785 94.8773 0)
+    (property "Footprint" "karn-kicad:reset-switch-TL3313AF250QG" (id 2) (at 224.2785 94.8773 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 212.2785 87.8773 0)
@@ -4144,7 +4145,7 @@
   (symbol (lib_id "power:GND") (at 214.2785 86.8773 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e3a47704-cb4a-4555-aa4f-d3ca75c136b6)
-    (property "Reference" "#PWR?" (id 0) (at 207.9285 86.8773 0)
+    (property "Reference" "#PWR0101" (id 0) (at 207.9285 86.8773 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 210.4685 86.8773 0))
@@ -4336,7 +4337,7 @@
       (reference "#PWR09") (unit 1) (value "VCC") (footprint "")
     )
     (path "/e3a47704-cb4a-4555-aa4f-d3ca75c136b6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/817acd3d-65d5-4d98-84f9-5556e4094c7a"
       (reference "D11") (unit 1) (value "D") (footprint "Diode_SMD:1N4148X-TP")
@@ -4408,7 +4409,7 @@
       (reference "L3") (unit 1) (value "SK6812MINI") (footprint "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm")
     )
     (path "/0eece0c9-6947-4883-a87e-b445b80630d9"
-      (reference "RSW1") (unit 1) (value "SW_Push") (footprint "TL3313AF250QG_EWI")
+      (reference "RSW1") (unit 1) (value "SW_Push") (footprint "karn-kicad:reset-switch-TL3313AF250QG")
     )
     (path "/60c85a9c-c0d2-4469-b84c-2eacd924bd6c"
       (reference "SW11") (unit 1) (value "SW_Push") (footprint "Button_Switch_Keyboard:MBK choc 1u")
