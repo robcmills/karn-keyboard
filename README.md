@@ -2,14 +2,14 @@
 
 Custom, low profile, split, ortholinear, non-staggered, wireless, 38 key keyboard
 
-What makes the Karn unique are the 1.5u thumb arc keys, the 1.5u pinky reach keys, and the non-key LEDs.
+What makes the Karn unique are the 1.5u thumb arc keys, the 1.5u pinky reach keys, and the status LEDs.
 
 
 ### Thumb Arc Keys
 
 I didn't like "tucking" my thumb under my palm, and most other keyboards I found in this "Ferris" family of split, minimal keyboards have thumb keys located "inside" of the homing fj keys' column. 
 
-The Karn aligns the inner thumb key with the homing column. This feels comfortable to me, and provides a sense of "homing" to my thumbs as well. With the additional thumb keys splaying out inwards from there, in a more aggresive downward arc than the Ferris. This arc follows the natural arc of my thumb. I took photos and did measurements. You can see these in the development directory. 
+The Karn aligns the inner thumb key with the homing column. This feels comfortable to me, and provides a sense of "homing" to my thumbs as well. With the additional thumb keys splaying out inwards from there, in a more aggresive downward arc than the Ferris. This arc follows the natural arc of my thumb. I took photos and did measurements.
 
 Also, the thumb keys are designed for vertical 1.5u keycaps. This is because I found 1u keycaps uncomfortable for my thumbs, as I typically make contact with the side of my thumb, which has more surface area making contact, and the sharp edge of 1u keycaps would dig into the center of the area of skin making contact. 
 Other keyboards are designed with maybe one or two larger thumb keys, but they are typically 2u, which means the added complexity of stabilizers, in addition to just feeling too big.
@@ -17,16 +17,16 @@ Other keyboards are designed with maybe one or two larger thumb keys, but they a
 
 ### Pinky Reach Keys
 
-"Pinky reach" meaning the keys in the colmn "outside" of the pinky column. On a traditional keyboard this would correspond to the Escape, Tab, Caps-lock, and Shift keys on the left hand for example. The other keyboard designs I saw either had no pinky reach keys, or a full set of three or four. The Karn is designed very much in the "all keys within one key distance of home" style, as is common in the less than 40% category. However, although the pinky diagonal reaches technically still count as "one key distance", that reach felt too difficult to me. And so they are omitted, but having zero pinky reach keys, I found it difficult to fit Tab and Enter elsewhere. There were just too few keys at that point, and so I wanted to retain a single horizontal pinky reach key on each side. I use these for Tab, Enter, and Held for Hyper. 
+"Pinky reach" meaning the keys in the colmn "outside" of the pinky column. On a traditional keyboard this would correspond to the Escape, Tab, Caps-lock, and Shift keys on the left hand for example. The other keyboard designs I saw either had no pinky reach keys, or a full set of three or four. The Karn is designed very much in the "all keys within one key distance of home" style, as is common in the less than 40% category. However, although the pinky diagonal reaches technically still count as "one key distance", that reach felt too difficult to me. And so they are omitted, but having zero pinky reach keys, I found it difficult to fit Tab and Enter elsewhere. There were just too few keys at that point, and so I wanted to retain a single horizontal pinky reach key on each side. I use these for Tab, Enter, and hold for Hyper. 
 
 
-### Non-key LEDs
+### Status LEDs
 
 The Karn is designed to be minimal, and easy to assemble. As such, I omitted LEDs for each key, but there are three LEDs positioned next to the microcontroller on only the right hand side. The purpose of these are as follows:
 
 1. Current Layer
 2. Caps-lock indicator
-3. General purpose
+3. Battery level
 
 I had considered an OLED screen, but that requires looking down at the keyboard and focusing on it in order to read what the current layer is. An LED can be seen out of the corner of your eye without breaking your gaze and focus away from the screen.
 
@@ -79,7 +79,9 @@ MFG : E-SWITCH (VA) / TL3313AF250QG
 DESC: SWITCH TACTILE SPST-NO 0.05A 12V
 UNIT PRICE: $0.431
 
-- feet (todo)
+- bottom
+Non Slip Anti Skid Pads Self-Stick 2 Pieces Black Rubber 4x6 inch
+https://www.amazon.com/dp/B08HN5R9Y3
 
 - pcb
 https://www.pcbway.com/
