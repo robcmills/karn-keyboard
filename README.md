@@ -4,6 +4,8 @@ Custom, low profile, split, ortholinear, non-staggered, wireless, 38 key keyboar
 
 What makes the Karn unique are the 1.5u thumb arc keys, the 1.5u pinky reach keys, and the status LEDs.
 
+![karn-right-assembled](/images/karn-right-assembled.jpg "karn-right-assembled")
+
 
 ### Thumb Arc Keys
 
@@ -11,7 +13,12 @@ I didn't like "tucking" my thumb under my palm, and most other keyboards I found
 
 The Karn aligns the inner thumb key with the homing column. This feels comfortable to me, and provides a sense of "homing" to my thumbs as well. With the additional thumb keys splaying out inwards from there, in a more aggresive downward arc than the Ferris. This arc follows the natural arc of my thumb. I took photos and did measurements.
 
+![ergo-reference-neutral-thumb-key](/images/ergo-reference-neutral-thumb-key.jpg "ergo-reference-neutral-thumb-key")
+
 Also, the thumb keys are designed for vertical 1.5u keycaps. This is because I found 1u keycaps uncomfortable for my thumbs, as I typically make contact with the side of my thumb, which has more surface area making contact, and the sharp edge of 1u keycaps would dig into the center of the area of skin making contact. 
+
+![thumb-key-edge-discomfort](/images/thumb-key-edge-discomfort.jpg "thumb-key-edge-discomfort")
+
 Other keyboards are designed with maybe one or two larger thumb keys, but they are typically 2u, which means the added complexity of stabilizers, in addition to just feeling too big.
 
 
