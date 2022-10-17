@@ -13,7 +13,7 @@ I didn't like "tucking" my thumb under my palm, and most other keyboards I found
 
 The Karn aligns the inner thumb key with the homing column. This feels comfortable to me, and provides a sense of "homing" to my thumbs as well. With the additional thumb keys splaying out inwards from there, in a more aggresive downward arc than the Ferris. This arc follows the natural arc of my thumb. I took photos and did measurements.
 
-![ergo-reference-neutral-thumb-key](/images/ergo-reference-neutral-thumb-key.jpg "ergo-reference-neutral-thumb-key")
+![ergo-reference-neutral-thumb-key](/images/ergo-reference-neutral-thumb-key.png "ergo-reference-neutral-thumb-key")
 
 Also, the thumb keys are designed for vertical 1.5u keycaps. This is because I found 1u keycaps uncomfortable for my thumbs, as I typically make contact with the side of my thumb, which has more surface area making contact, and the sharp edge of 1u keycaps would dig into the center of the area of skin making contact. 
 
