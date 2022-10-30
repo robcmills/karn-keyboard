@@ -86,9 +86,9 @@ MFG : E-SWITCH (VA) / TL3313AF250QG
 DESC: SWITCH TACTILE SPST-NO 0.05A 12V
 UNIT PRICE: $0.431
 
-- bottom
-Non Slip Anti Skid Pads Self-Stick 2 Pieces Black Rubber 4x6 inch
-https://www.amazon.com/dp/B08HN5R9Y3
+- feet
+Self-Adhesive Clear Rubber Feet Tiny Bumpons (6x2mm)
+https://www.amazon.com/dp/B06XCNM69B
 
 - pcb
 https://www.pcbway.com/
