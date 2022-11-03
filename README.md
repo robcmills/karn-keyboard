@@ -6,6 +6,7 @@ What makes the Karn unique are the 1.5u thumb arc keys, the 1.5u pinky reach key
 
 ![karn-right-assembled](/images/karn-right-assembled.jpg "karn-right-assembled")
 
+![karn-complete](/images/karn-complete.jpg "karn-complete")
 
 ### Thumb Arc Keys
 
