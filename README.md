@@ -99,3 +99,34 @@ https://www.pcbway.com/
 
 https://github.com/robcmills/karn-keyboard-firmware
 
+
+### Inspiration
+
+#### Thumb Block Style
+
+- Maltron https://en.wikipedia.org/wiki/Maltron
+
+![maltron](/images/maltron.jpg "maltron")
+
+- Kinesis Advantage https://kinesis-ergo.com/shop/advantage2/
+
+![kinesis-advantage](/images/kinesis-advantage.jpg "kinesis-advantage")
+
+- Ergodox EZ https://ergodox-ez.com/
+
+![ergodox-ez](/images/ergodox-ez.webp "ergodox-ez")
+
+
+#### Thumb Arc Style
+
+- NEC PWP http://xahlee.info/kbd/nec_pc-8801_keyboard.html
+
+![nec](/images/nec-pc-8801-k1.jpg "nec")
+
+- Kyria https://blog.splitkb.com/blog/introducing-the-kyria
+
+![kyria](/images/kyria.jpg "kyria")
+
+- Corne https://github.com/foostan/crkbd
+
+![corne](/images/corne.jpg "corne")
