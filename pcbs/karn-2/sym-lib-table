@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "karn-symbols")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/karn-kicad/karn-symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "sw_push_reversible")(type "KiCad")(uri "/Users/robcmills/src/karn-keyboard/libraries/karn-kicad/sw_push_reversible.kicad_sym")(options "")(descr ""))
+)

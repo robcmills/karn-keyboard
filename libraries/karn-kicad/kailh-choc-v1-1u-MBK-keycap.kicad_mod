@@ -1,4 +1,4 @@
-(footprint "MBK choc 1u" (version 20211014) (generator pcbnew)
+(footprint "kailh-choc-v1-1u-MBK-keycap" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
@@ -39,6 +39,7 @@
   (pad "" np_thru_hole circle (at 5.5 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask) (tstamp f5153ab4-2ad0-4e5c-8b17-855aa6fbc8bd))
   (pad "1" thru_hole circle (at 0 5.9) (size 2.282 2.282) (drill 1.52) (layers *.Cu *.Mask) (tstamp 5e83e442-614d-4153-87ac-626745c28c9f))
   (pad "2" thru_hole circle (at -5 3.8) (size 2.282 2.282) (drill 1.52) (layers *.Cu *.Mask) (tstamp af39c69f-2317-4425-b72c-6764e415907c))
+  (pad "3" thru_hole circle (at 5 3.8) (size 2.282 2.282) (drill 1.52) (layers *.Cu *.Mask) (tstamp de7d23da-62b2-477c-aeba-7f266509558e))
   (group "MBK choc 1u keycap" (id 4597c771-d1fc-4209-b7d3-50a58f942012)
     (members
       71536927-9ac4-4ba6-b518-3d95322a6ced
