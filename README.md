@@ -1,8 +1,8 @@
 # karn-keyboard
 
-Custom, low profile, split, ortholinear, non-staggered, wireless, 38 key keyboard
+Split, ortholinear, non-staggered, 38 key keyboard.
 
-What makes the Karn unique are the 1.5u thumb arc keys, the 1.5u pinky reach keys, and the status LEDs.
+What makes the Karn unique are the 1.5u thumb arc and pinky reach keys.
 
 ![karn-right-assembled](/images/karn-right-assembled.jpg "karn-right-assembled")
 
@@ -25,18 +25,26 @@ Other keyboards are designed with maybe one or two larger thumb keys, but they a
 
 ### Pinky Reach Keys
 
-"Pinky reach" meaning the keys in the colmn "outside" of the pinky column. On a traditional keyboard this would correspond to the Escape, Tab, Caps-lock, and Shift keys on the left hand for example. The other keyboard designs I saw either had no pinky reach keys, or a full set of three or four. The Karn is designed very much in the "all keys within one key distance of home" style, as is common in the less than 40% category. However, although the pinky diagonal reaches technically still count as "one key distance", that reach felt too difficult to me. And so they are omitted, but having zero pinky reach keys, I found it difficult to fit Tab and Enter elsewhere. There were just too few keys at that point, and so I wanted to retain a single horizontal pinky reach key on each side. I use these for Tab, Enter, and hold for Hyper. 
+"Pinky reach" meaning the keys in the colmn "outside" of the pinky column. On a traditional keyboard this would correspond to the Escape, Tab, Caps-lock, and Shift keys on the left hand for example. The other keyboard designs I saw either had no pinky reach keys, or a full set of three or four. The Karn is designed very much in the "all keys within one key distance of home" style, as is common in the less than 40% category. However, although the pinky diagonal reaches technically still count as "one key distance", that reach felt too difficult to me. And so they are omitted, but having zero pinky reach keys, I found it difficult to fit Tab and Enter elsewhere. There were just too few keys at that point, and so I wanted to retain a single horizontal pinky reach key on each side. I use these for Tab (left), Enter (right), and hold for Hyper. 
 
 
-### Status LEDs
+### Versions
 
-The Karn is designed to be minimal, and easy to assemble. As such, I omitted LEDs for each key, but there are three LEDs positioned next to the microcontroller on only the right hand side. The purpose of these are as follows:
+There are actually two versions in this repo: 
 
-1. Current Layer
-2. Caps-lock indicator
-3. Battery level
+### Karn-1
 
-I had considered an OLED screen, but that requires looking down at the keyboard and focusing on it in order to read what the current layer is. An LED can be seen out of the corner of your eye without breaking your gaze and focus away from the screen.
+The original version is designed to be wireless. It is built around a standard 24 pin microcontroller with bluetooth support. I used the Nice-Nano-v2. With only 24 pins and 38 keys, this necessitated a matrix key layout, with diodes. Additionally, it adds an on/off switch, reset switch, and battery connector. This makes assembly much more complicated. Especially the diodes, which are super tiny, and very difficult to hot-air solder onto the tiny pads. This is not for beginners.
+
+Also, the original karn pcb is split across two different designs, one for the left and another for the right. This doubles manufactoring costs, since you have to order the pcbs for both sides. I was learning.
+
+### Karn-2
+
+The karn-2 seeks to improve on the original with a host of simplifications. It is built around a 40 pin microcontroller so that there is no need for a key matrix, and hence no diodes. Furthermore, the microcontroller I found has a reset switch built onto the board, so no extra parts and hot-air soldering required. The microcontroller does not support Bluetooth, but this means no battery connector and no on/off switch. This greatly simplifies the design and assembly, and reduces the number of parts required and thus the cost.
+
+And lastly, the karn-2 PCB is designed to be reversible, so you only need to order it once, and you can use it for both left and right. 
+
+![karn-2-pcb](/images/karn-2-pcb.png "karn-2-pcb")
 
 
 ### Parts List
@@ -48,39 +56,52 @@ Kailh Low Profile Choc v1
 - key caps
 https://mkultra.click/mbk-choc-keycaps
 
-- microcontroller
+- microcontroller (karn-1)
 https://mkultra.click/nice-nano-v2/
 (includes 301230 110mAh Battery with JST Connector) 
 
-- microcontroller sockets and pins
+- microcontroller (karn-2)
+https://www.digikey.com/en/products/detail/dfrobot/DFR0864/14824968
+DFRobot Blackpill development board
+
+- microcontroller sockets and pins (karn-1)
 https://mkultra.click/mill-max-micro-controller-sockets-and-pins/
 
-- power switches
+- microcontroller sockets and pins (karn-2)
+https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/315-43-120-41-003000/4455248
+Mill-max 315-43-120-41-003000 sockets
+https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/3320-1-00-15-00-00-03-0/4147393
+Mill-max 3320-1-00-15-00-00-03-0 pins
+
+- trrs jack
+https://mkultra.click/pj-320a-3-5mm-trrs-jack/
+
+- power switches (karn-1)
 https://mkultra.click/alps-ssss811101/
 https://tech.alpsalpine.com/e/products/detail/SSSS811101/
 
-- diodes
+- diodes (karn-1)
 https://www.digikey.com/en/products/detail/micro-commercial-co/1N4148X-TP/789328
 PART: 1N4148XTPMSCT-ND
 MFG : MICRO COMMERCIAL CO (VA) / 1N4148X-TP
 DESC: DIODE GEN PURP 75V 150MA SOD523
 UNIT PRICE: $0.173
 
-- leds
+- leds (karn-1)
 https://www.digikey.com/en/products/detail/adafruit-industries-llc/2686/5804107
 PART: 1528-1541-ND
 MFG : ADAFRUIT INDUSTRIES LLC / 2686
 DESC: ADDRESS LED DISC SERIAL RGB 10PK
 UNIT PRICE: $4.95 (for quantity 10)
 
-- battery connectors
+- battery connectors (karn-1)
 https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626
 PART: 455-1719-ND
 MFG : JST SALES AMERICA INC / S2B-PH-K-S(LF)(SN)
 DESC: CONN HEADER R/A 2POS 2MM
 UNIT PRICE: $0.134
 
-- reset switches
+- reset switches (karn-1)
 https://www.digikey.com/en/products/detail/e-switch/TL3313AF250QG/4029401
 PART: EG6065CT-ND
 MFG : E-SWITCH (VA) / TL3313AF250QG
