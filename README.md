@@ -44,6 +44,10 @@ The karn-2 seeks to improve on the original with a host of simplifications. It i
 
 And lastly, the karn-2 PCB is designed to be reversible, so you only need to order it once, and you can use it for both left and right. 
 
+![karn-2-left](/images/karn-2-left.jpg "karn-2-left")
+
+![karn-2-full](/images/karn-2-full.jpg "karn-2-full")
+
 ![karn-2-pcb](/images/karn-2-pcb.png "karn-2-pcb")
 
 
